@@ -1,0 +1,522 @@
+<DProject>
+ <ProjectGuid>{0BAF56F4-5E5F-4D14-A68F-2278068C7022}</ProjectGuid>
+ <Config name="Debug" platform="Win32">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <subsystem>0</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <symdebug>1</symdebug>
+  <optimize>0</optimize>
+  <cpu>0</cpu>
+  <isX86_64>0</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <noboundscheck>0</noboundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>0</useInline>
+  <release>0</release>
+  <preservePaths>0</preservePaths>
+  <warnings>1</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <Dversion>2</Dversion>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <compiler>0</compiler>
+  <otherDMD>0</otherDMD>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath />
+  <fileImppath />
+  <outdir>$(ConfigurationName)</outdir>
+  <objdir>$(OutDir)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(ProjectDir)\phobos.json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>1</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbPre2043>0</cv2pdbPre2043>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <objfiles />
+  <linkswitches />
+  <libfiles>etc\c\zlib\zlib.lib</libfiles>
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(ProjectDir)\phobos.lib</exefile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>2</cRuntime>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
+ </Config>
+ <Config name="Release" platform="Win32">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <subsystem>0</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <symdebug>0</symdebug>
+  <optimize>1</optimize>
+  <cpu>0</cpu>
+  <isX86_64>0</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <noboundscheck>0</noboundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>0</useInline>
+  <release>1</release>
+  <preservePaths>0</preservePaths>
+  <warnings>1</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <Dversion>2</Dversion>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <compiler>0</compiler>
+  <otherDMD>0</otherDMD>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath />
+  <fileImppath />
+  <outdir>$(ConfigurationName)</outdir>
+  <objdir>$(OutDir)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(ProjectDir)\phobos.json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>0</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbPre2043>0</cv2pdbPre2043>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <objfiles />
+  <linkswitches />
+  <libfiles>etc\c\zlib\zlib.lib</libfiles>
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(ProjectDir)\phobos.lib</exefile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>1</cRuntime>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
+ </Config>
+ <Config name="Debug" platform="x64">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <subsystem>0</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <symdebug>1</symdebug>
+  <optimize>0</optimize>
+  <cpu>0</cpu>
+  <isX86_64>1</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <noboundscheck>0</noboundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>0</useInline>
+  <release>0</release>
+  <preservePaths>0</preservePaths>
+  <warnings>1</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <Dversion>2</Dversion>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <compiler>0</compiler>
+  <otherDMD>0</otherDMD>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath />
+  <fileImppath />
+  <outdir>$(ConfigurationName)</outdir>
+  <objdir>$(OutDir)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(ProjectDir)\phobos.json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>1</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbPre2043>0</cv2pdbPre2043>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <objfiles />
+  <linkswitches />
+  <libfiles>etc\c\zlib\zlib64.lib</libfiles>
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(ProjectDir)\phobos64.lib</exefile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>0</cRuntime>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
+ </Config>
+ <Config name="Release" platform="x64">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <subsystem>0</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <symdebug>0</symdebug>
+  <optimize>1</optimize>
+  <cpu>0</cpu>
+  <isX86_64>1</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <noboundscheck>0</noboundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>0</useInline>
+  <release>1</release>
+  <preservePaths>0</preservePaths>
+  <warnings>1</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <Dversion>2</Dversion>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <compiler>0</compiler>
+  <otherDMD>0</otherDMD>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath />
+  <fileImppath />
+  <outdir>$(ConfigurationName)</outdir>
+  <objdir>$(OutDir)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(ProjectDir)\phobos.json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>0</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbPre2043>0</cv2pdbPre2043>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <objfiles />
+  <linkswitches />
+  <libfiles>etc\c\zlib\zlib64.lib</libfiles>
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(ProjectDir)\phobos64.lib</exefile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>0</cRuntime>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
+ </Config>
+ <Folder name="phobos_msc">
+  <Folder name="etc">
+   <Folder name="c">
+    <File path="etc\c\curl.d" />
+    <File path="etc\c\sqlite3.d" />
+    <File path="etc\c\zlib.d" />
+   </Folder>
+  </Folder>
+  <Folder name="std">
+   <Folder name="c">
+    <Folder name="freebsd">
+     <File tool="None" path="std\c\freebsd\socket.d" />
+    </Folder>
+    <Folder name="linux">
+     <File tool="None" path="std\c\linux\linux.d" />
+     <File tool="None" path="std\c\linux\linuxextern.d" />
+     <File tool="None" path="std\c\linux\pthread.d" />
+     <File tool="None" path="std\c\linux\socket.d" />
+     <File tool="None" path="std\c\linux\termios.d" />
+     <File tool="None" path="std\c\linux\tipc.d" />
+    </Folder>
+    <Folder name="osx">
+     <File tool="None" path="std\c\osx\socket.d" />
+    </Folder>
+    <Folder name="windows">
+     <File path="std\c\windows\com.d" />
+     <File path="std\c\windows\stat.d" />
+     <File path="std\c\windows\windows.d" />
+     <File path="std\c\windows\winsock.d" />
+    </Folder>
+    <File path="std\c\fenv.d" />
+    <File path="std\c\locale.d" />
+    <File path="std\c\math.d" />
+    <File path="std\c\process.d" />
+    <File path="std\c\stdarg.d" />
+    <File path="std\c\stddef.d" />
+    <File path="std\c\stdio.d" />
+    <File path="std\c\stdlib.d" />
+    <File path="std\c\string.d" />
+    <File path="std\c\time.d" />
+    <File path="std\c\wcharh.d" />
+   </Folder>
+   <Folder name="digest">
+    <File path="std\digest\crc.d" />
+    <File path="std\digest\digest.d" />
+    <File path="std\digest\md.d" />
+    <File path="std\digest\ripemd.d" />
+    <File path="std\digest\sha.d" />
+   </Folder>
+   <Folder name="internal">
+    <Folder name="digest">
+     <File path="std\internal\digest\sha_SSSE3.d" />
+    </Folder>
+    <Folder name="math">
+     <File path="std\internal\math\biguintcore.d" />
+     <File path="std\internal\math\biguintnoasm.d" />
+     <File path="std\internal\math\biguintx86.d" />
+     <File path="std\internal\math\errorfunction.d" />
+     <File path="std\internal\math\gammafunction.d" />
+    </Folder>
+    <Folder name="windows">
+     <File path="std\internal\windows\advapi32.d" />
+    </Folder>
+    <File path="std\internal\processinit.d" />
+    <File path="std\internal\scopebuffer.d" />
+    <File path="std\internal\unicode_comp.d" />
+    <File path="std\internal\unicode_decomp.d" />
+    <File path="std\internal\unicode_grapheme.d" />
+    <File path="std\internal\unicode_norm.d" />
+    <File path="std\internal\unicode_tables.d" />
+   </Folder>
+   <Folder name="net">
+    <File path="std\net\curl.d" />
+    <File path="std\net\isemail.d" />
+   </Folder>
+   <Folder name="windows">
+    <File path="std\windows\charset.d" />
+    <File path="std\windows\iunknown.d" />
+    <File path="std\windows\registry.d" />
+    <File path="std\windows\syserror.d" />
+   </Folder>
+   <File path="std\algorithm.d" />
+   <File path="std\array.d" />
+   <File path="std\ascii.d" />
+   <File path="std\base64.d" />
+   <File path="std\bigint.d" />
+   <File path="std\bitmanip.d" />
+   <File path="std\compiler.d" />
+   <File path="std\complex.d" />
+   <File path="std\concurrency.d" />
+   <File path="std\container.d" />
+   <File path="std\conv.d" />
+   <File path="std\cstream.d" />
+   <File path="std\csv.d" />
+   <File path="std\datetime.d" />
+   <File path="std\demangle.d" />
+   <File path="std\encoding.d" />
+   <File path="std\exception.d" />
+   <File path="std\file.d" />
+   <File path="std\format.d" />
+   <File path="std\functional.d" />
+   <File path="std\getopt.d" />
+   <File path="std\json.d" />
+   <File path="std\math.d" />
+   <File path="std\mathspecial.d" />
+   <File path="std\metastrings.d" />
+   <File path="std\mmfile.d" />
+   <File path="std\numeric.d" />
+   <File path="std\outbuffer.d" />
+   <File path="std\parallelism.d" />
+   <File path="std\path.d" />
+   <File path="std\process.d" />
+   <File path="std\random.d" />
+   <File path="std\range.d" />
+   <File path="std\regex.d" />
+   <File path="std\signals.d" />
+   <File path="std\socket.d" />
+   <File path="std\socketstream.d" />
+   <File path="std\stdint.d" />
+   <File path="std\stdio.d" />
+   <File path="std\stdiobase.d" />
+   <File path="std\stream.d" />
+   <File path="std\string.d" />
+   <File path="std\syserror.d" />
+   <File path="std\system.d" />
+   <File path="std\traits.d" />
+   <File path="std\typecons.d" />
+   <File path="std\typelist.d" />
+   <File path="std\typetuple.d" />
+   <File path="std\uni.d" />
+   <File path="std\uri.d" />
+   <File path="std\utf.d" />
+   <File path="std\uuid.d" />
+   <File path="std\variant.d" />
+   <File path="std\xml.d" />
+   <File path="std\zip.d" />
+   <File path="std\zlib.d" />
+  </Folder>
+ </Folder>
+</DProject>
